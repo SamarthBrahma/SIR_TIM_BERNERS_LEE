@@ -73,6 +73,8 @@ p {
 }
 
 .menu {
+    width: 100%;
+    margin-top: 0px;
     list-style: none;
     font-family: fantasy;
     position:fixed;
@@ -83,6 +85,7 @@ p {
 }
 
 .links {
+    display:inline;
     float: left;
     color: crimson;
     padding: 5px 9px;
@@ -92,7 +95,7 @@ p {
 
 .links:hover {
     background-color: darkviolet;
-
+font-size: 40px;
 }
 
 html {
@@ -101,8 +104,22 @@ html {
 
 a {
     text-decoration: none;
+    color:cyan;
+    text-shadow: 2px 2px gainsboro;
 }
 
 .article:hover {
     color:aqua;
+}
+#writing a{
+text-shadow: none !important;
+text-decoration: underline !important;
+color:darkmagenta !important;
+}
+#contact{
+background: firebrick;
+}
+.contact_1 a{
+text-shadow: none !important;
+color: darkgreen !important;
 }
